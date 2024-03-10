@@ -28,106 +28,128 @@
     }
     body{
         text-align: center;
+        margin: 0;
+        padding: 0;
     }
+
+    #nav{
+        background-color: black;
+        z-index: 1000;
+        opacity: 79%;
+    }
+
+
 </style>
 </head>
 <body>
+    <nav id="nav", class="navbar navbar-toggleable-md fixed-top navbar-transparent sticky-navigation-alt">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="ion-grid"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+        <img src="https://usebootstrap.com/preview-no-frame/wired_ui_kit-master/img/logo-w60.png" class="nav-brand-logo" />
+        </a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+        <a  class="nav-link" href="#" id="components" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Home  
+        </a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link page-scroll" href="#comingsoon">Coming Soon</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link page-scroll" href="#icons">More Updates</a>
+            </li>
+        <li class="nav-item">
+        </li>
+        <li class="nav-item">
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" data-toggle="tooltip" data-placement="bottom" data-title="Share" target="_blank" href="#"><em class="fa fa-facebook"></em></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" data-toggle="tooltip" data-placement="bottom" data-title="Tweet" target="_blank" href="https://www.instagram.com/coreanalyticengine/"><em class="fa fa-instagram"></em></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" data-toggle="tooltip" data-placement="bottom" data-title="Share" target="_blank" href="#"><em class="fa fa-linkedin"></em></a>
+        </li>
+        </ul>
+        </div>
+        </nav>
+        <div class="wrapper">
 
-<div class="wrapper">
-
-<section class="colored-section hero-header">
-<div class="container">
-<div class="row">
-<div class="col-md-8 offset-md-2">
-<div class="brand">
-<h1 class="text-white" id="h1-text">CoreAnalyticEngine</h1>
-<h5 class="text-uppercase mb-5" id="sub-txt">
-An AI Based model that can do tasks related to Data Analytics and Management
-that normally require human inputs
-</h5>
-</div>
-</div>
-</div>
-</div>
-</section>
+            <section class="colored-section hero-header">
+            <div class="container">
+            <div class="row">
+            <div class="col-md-8 offset-md-2">
+            <div class="brand">
+            <h1 class="text-white" id="h1-text">CoreAnalyticEngine</h1>
+            <h5 class="text-uppercase mb-5" id="sub-txt">
+            An AI Based model that can do tasks related to Data Analytics and Management
+            that normally require human inputs
+            </h5>
+            </div>
+            </div>
+            </div>
+            </div>
+            </section>
 
 <section class="colored-section bg-inverse">
 <div class="container">
 <div class="title">
-<h2 class="heading-semi-black">Coming Soon </h2>
+<h2 id="comingsoon" , class="heading-semi-black">Coming Soon </h2>
 </div>
 
 <div id="buttons">
 <div class="title" id="buttons">
 <p>
 We are currently deeply engrossed in the ongoing development of our engine. For comprehensive details and updates regarding its progress, we invite you to explore our official Instagram page.</p>
-
-<!-- <div id="forms" class="mt-5">
-<div class="title">
-<h3>Create an account</h3>
-<p >Wannna know  when the tool comes out? Sign up and be the part of the first 20 people to get it free!</p>
 </div>
-<div class="row">
-<div class="col-sm-3">
-<div class="form-group">
-<input type="text" class="form-control" placeholder="Email Adress" />
-</div>
-</div>
-<div class="col-sm-3">
-<div class="form-group">
-<input type="password" class="form-control" placeholder="Password" />
-</div>
-</div>
-<div class="col-sm-3">
-<div class="form-group">
-<select class="form-control">
-<option>Select Date of Birth</option>
-<option>1</option>
-<option>2</option>
-<option>3</option>
-<option>4</option>
-<option>5</option>
-<button type="submit">Submit</button>
-</select>
-</div>
-</div>
-<div class="col-sm-3">
-<div class="form-group">
-<textarea class="form-control" placeholder="What's in your mind?" rows="1"></textarea>
-</div>
-</div>
-<div class="col-sm-3 pb-3">
-<div class="input-group">
-<span class="input-group-addon" id="location-addon"><em class="fa fa-map-marker"></em></span>
-<input type="text" class="form-control" placeholder="e.g. New York" aria-describedby="location-addon">
-</div>
-</div>
-<div class="col-sm-3">
-<div class="input-group">
-<input type="text" class="form-control" placeholder="Amount (in percentage)">
-<span class="input-group-btn">
-<button class="btn btn-primary"><em class="fa fa-percent"></em></button>
-</span>
-</div>
-</div>
-</div> -->
 
 <section class="colored-section bg-inverse" id="download">
 <div class="container">
 <div class="row justify-content-center text-center">
 <div class="col-md-10">
-<img class="img" src="https://coreanalyticengine.github.io/Coreanalyticengine/CoreAnalyticEngine-ComingSoonPoster.png"
+
+
+<section class="colored-section hero-header"  style="background-image: url('dark-incense-smoke.jpg'); background-size: cover; background-position: center center;">
+ <!-- Use container-fluid for full-width container -->
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<div class="brand">
+<h1 class="text-white" id="h1-text">CoreAnalyticEngine</h1>
+<h5 class="text-uppercase mb-5" id="sub-txt">
+                        An AI Based model that can do tasks related to Data Analytics and Management
+                        that normally require human inputs
+</h5>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+    <img class="img" src="https://coreanalyticengine.github.io/Coreanalyticengine/CoreAnalyticEngine-ComingSoonPoster.png"
 
 style="max-width:200px;height:200px;display:block;margin:-40px auto 30px auto;"
 
 >
+
+
 <h1>Follow us on instagram for regular updates</h1>
-<a href="https://instagram.com/coreanalyticengine" class="btn" style="background:blueViolet;color:white;text-decoration:none;">Follow</a>
+<footer>
+<a href="https://instagram.com/coreanalyticengine" class="btn" style="background:blueViolet;color:white;text-decoration:none;">Follow</a><br><br><br><br>
 <p class="lead">
+
+
 Founding Team Contact: coreanalyticengine@gmail.com
 </p>
 </div>
 </div>
+
+</section>
 <div class="row">
 <div class="col-md-8 offset-md-2 text-center">
 
@@ -143,9 +165,8 @@ Founding Team Contact: coreanalyticengine@gmail.com
 </div>
 </div>
 </div>
-</section>
 </div>
-
+</footer>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog" role="document">
 <div class="modal-content colored-section bg-inverse">
@@ -168,6 +189,7 @@ Design is the creation of a plan or convention for the construction of an object
 </div>
 </div>
 
+
 <div class="modal fade" id="miniModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
 <div class="modal-dialog modal-sm">
 <div class="modal-content colored-section bg-inverse">
@@ -185,16 +207,29 @@ Design is the creation of a plan or convention for the construction of an object
 </div>
 </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" type="89b86e78302a1829401bac42-text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" type="89b86e78302a1829401bac42-text/javascript"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" type="89b86e78302a1829401bac42-text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" type="89b86e78302a1829401bac42-text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" type="89b86e78302a1829401bac42-text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" type="text/javascript"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" type="text/javascript"></script>
 
-<script src="https://usebootstrap.com/preview-no-frame/wired_ui_kit-master/js/vendors/moment.min.js" type="89b86e78302a1829401bac42-text/javascript"></script>
-<script src="https://usebootstrap.com/preview-no-frame/wired_ui_kit-master/js/vendors/daterangepicker/daterangepicker.js" type="89b86e78302a1829401bac42-text/javascript"></script>
+<script src="https://usebootstrap.com/preview-no-frame/wired_ui_kit-master/js/vendors/moment.min.js" type="text/javascript"></script>
+<script src="https://usebootstrap.com/preview-no-frame/wired_ui_kit-master/js/vendors/daterangepicker/daterangepicker.js" type="text/javascript"></script>
 
-<script src="https://usebootstrap.com/preview-no-frame/wired_ui_kit-master/js/app.js" type="89b86e78302a1829401bac42-text/javascript"></script>
-<script src="https://usebootstrap.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="89b86e78302a1829401bac42-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"85c1b767490e2d07","r":1,"version":"2024.2.1","token":"fddeef96bf4d478d94841d7576a88dea"}' crossorigin="anonymous"></script>
+<script src="https://usebootstrap.com/preview-no-frame/wired_ui_kit-master/js/app.js" type="text/javascript"></script>
+<script src="https://usebootstrap.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="89b86e78302a1829401bac42-|49" defer></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"85c1b767490e2d07","r":1,"version":"2024.2.1","token":"fddeef96bf4d478d94841d7576a88dea"}' crossorigin="anonymous"></script>
+
+<script>
+    window.onscroll = function() { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("myNavbar").classList.add("scrolled");
+    } else {
+        document.getElementById("myNavbar").classList.remove("scrolled");
+    }
+}
+</script>
 </body>
 </html>
